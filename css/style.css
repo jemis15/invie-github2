@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-titulo: #7D70BA;
+    --color-linea: #C7C8C7;
+    --color-blue: #0facf3;
+    --color-white: #ffffff;
+    --color-gris: #fafafa;
+    --color-letra: #6B6C6A;
+}
+
+
+
+.titulo{
+    font-size: 2em;
+    color: var(--color-titulo);
+    margin: 10px auto 0 auto;  
+}
+.text-center{
+    text-align: center;
+}
+
+.form-busqueda{
+    margin: 20px;
+
+    display: flex;
+    flex-flow: row grap;
+    justify-content: center;
+}
+
+.input-search{
+    width: 250px;
+    background-color: var(--color-gris);
+    border: 1px solid var(--color-linea);
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 5px 10px;
+}
+
+.btn-submit{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    margin: 0 2px;
+}
+
+.grupo-caja{
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));/*tamaño de columna*/
+    grid-template-rows: auto;
+    grid-gap: 20px 40px;
+}
+
+.caja{
+    padding: 5px;
+}
+
+.titulo-caja{
+    width: 100%;
+    color: var(--color-letra);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+.img-caja{
+    width: 100%;
+}
+
+.footer{
+    border-top: 1px solid var(--color-linea);
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    color: var(--color-letra);
+}
+
+/*estilos moto*/
+
+.container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.container-img{
+    border: 1px solid blue;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imagen{
+    min-width: 300px;
+    max-width: auto;
+}
+.container-description{
+    border: 1px solid blue;
+    width: 50%;
+}
