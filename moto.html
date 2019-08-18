@@ -12,12 +12,14 @@
         <input class="input-search" type="search" name="search" placeholder="Busca por modelo">
         <button class="btn-submit" type="submit">Buscar</button>
     </form>
+
+    <h2 class="container-description-title text-center">R15</h2>
     <div class="container">
         <div class="container-img">
             <img class="imagen" src="image/moto.png" alt="r15">
         </div>
         <div class="container-description">
-            <h2>R15</h2>
+            <div class="container-description-clave-valor">
             <div class="container-description-clave">
                 <span>Modelo:</span>
                 <span>Marca:</span>
@@ -40,33 +42,55 @@
                 <span>6 Velocidades</span>
                 <span>13 Litros</span>
             </div>
+            </div>
         </div>
     </div>
     <div class="container-cotizar">
         <div class="cotizar-box">
-            <h1>Cotizar</h1>
-            <form action="#">
-                <label for="precio">Precio</label>
-                <input type="text">
-                <label for="inicial">Inicial</label>
-                <input type="text">
-                <button type="submit">Cotizar</button>
-            </form>
-            <div class="line-horizontal"></div>
-            <div class="results">
-                <div class="result-meses">
-                    <span>6 meses</span>
-                    <span>12 meses</span>
-                    <span>18 meses</span>
+            <h1 class="title-cotizar text-center">Cotizar</h1>
+            <div class="container-form-cotizar">
+                <div class="form" action="#">
+                    <label for="precio">Precio</label>
+                    <input type="text">
+                    <label for="inicial">Inicial</label>
+                    <input type="text">
+                    <button type="submit">Cotizar</button>
                 </div>
-                <div class="result-precio">
-                    <span>S/ 1250.00</span>
-                    <span>S/ 750.00</span>
-                    <span>S/ 550.00</span>
+                <div class="line-horizontal"></div>
+                <div class="results">
+                    <div class="result-meses">
+                        <span>6 meses</span>
+                        <span>12 meses</span>
+                        <span>18 meses</span>
+                    </div>
+                    <div class="result-precio">
+                        <span>S/ 1250.00</span>
+                        <span>S/ 750.00</span>
+                        <span>S/ 550.00</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <h4 class="text-center title-results-similares">Mas resultadsos similares</h4>
+    <div class="grupo-caja">
+        <div class="caja">
+            <a class="titulo-caja text-center" href="#">XTZ 150</a>
+            <img class="img-caja" src="image/moto.png" alt="moto-png">
+        </div>
+        <div class="caja">
+            <a class="titulo-caja text-center" href="#">GIXXER</a>
+            <img class="img-caja" src="image/moto5.png" alt="moto-png">
+        </div>
+        <div class="caja">
+            <a class="titulo-caja text-center" href="#">INVICTA</a>
+            <img class="img-caja" src="image/moto2.jpg" alt="moto-png">
+        </div>
+        <div class="caja">
+            <a class="titulo-caja text-center" href="#">GSX S1000</a>
+            <img class="img-caja" src="image/moto3.jpg" alt="moto-png">
+        </div>
+    </div>  
 
     <footer class="footer">
             © 2019 <a href="#"><span>JEMS</span></a>
