@@ -13,6 +13,7 @@
     --color-letra: #6B6C6A;
     --color-azul: rgb(7, 71, 166);
     --color-azul-claro: #0facf3;
+    --color-red: rgb(209, 57, 57);
 }
 
 
@@ -245,4 +246,102 @@
 }
 .button-login:hover{
     background-color: var(--color-azul-claro);
+}
+
+/*dashboard*/
+.header-dashboard{
+    font-size: 1.2em;
+    padding: 20px 10px;
+    background: var(--color-azul);
+    color: var(--color-white);
+}
+.cerrar-session{
+    color: inherit;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+.cerrar-session:hover{
+    background-color: var(--color-red);
+    border-radius: 3px;   
+}
+
+.container-dashboard{
+    margin-top: 35px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.navegacion-dashboard{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ul-navegacion{
+    position: relative;
+    width: 100%;
+}
+.list-nav{
+    color: var(--color-azul);
+    width: inherit;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.list-nav:hover{
+    background-color: var(--color-azul);
+    color: var(--color-white);
+    text-decoration: underline;
+}
+.link-nav{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1em;
+    width: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-nav-active{
+    background-color: var(--color-azul);
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.main-dashboard{
+    /*background: #6B6C6A;*/
+}
+.table{
+    
+}
+.table-title{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: var(--color-azul)
+}
+.th{
+    color: var(--color-azul-claro)
+}
+.tbody{
+}
+.tbody-tr{
+    border-bottom: 1px solid var(--color-linea)
+}
+.tbody-td{
+    color: var(--color-letra);
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid var(--color-linea)
+}
+.link-accion{
+    text-decoration: none;
+    color: var(--color-azul);
+    /*font-weight: bold;*/
+}
+.link-accion:hover{
+    color: var(--color-red);
 }
